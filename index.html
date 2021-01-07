@@ -4,24 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css?v=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
     <title>Tyler's Name Tag</title>
 </head>
 <body>
     <main>
-         <div class="gray-box">
-
-         <div class="name-tag">
-        <header class="hello">
-            <p><span class="big-text">Hello</span><br><span class="medium-text">my name is</span></p>
-        
-        </header>
-    
-        <section class="name">
-            <h3><em>Tyler Farris</em></h3>
-        </section>
-        <footer></footer>
+        <div class="gray-box">
+        <div id='mainColor' class="name-tag">
+            <header  class="hello">
+                <p>
+                    <span id="bigText" class="big-text">Hello</span>
+                    <br>
+                    <span id="mediumText"  class="medium-text">my name is</span>
+                </p>
+            </header>
+  
+            <section id="name2"  class="name">
+                <h3 id="text-area"><em>Tyler Farris</em></h3>
+            </section>
+            <footer>
+                <h2 id="pronouns-area">My pronouns are: <span id="preferred-pronouns">He/Him</span></h2>
+            </footer> 
+     </div>
+        <div class="edit-box">
+            <button id="changeButton">Whats your name?</button>
+             <input id="user-input" type="text">
+         </div> 
+     <div class="edit-box">
+         <button id="pronoun-Button">What are your pronouns?</button>
+         <input id="pronoun-input" type="text">
     </div>
   </div>
+    
     </main> 
+    <script type="module" src="app.js"></script>
 </body>
 </html>

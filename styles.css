@@ -35,7 +35,7 @@ body, main {
 }
 .name {
     background-color: white;
-    font-family: cursive;
+    font-family: 'Yellowtail', cursive;
     font-size: 60px;
     display: flex;
     justify-content: center;
@@ -45,9 +45,19 @@ body, main {
 }
 
 footer {
+    font-size:20px;
    grid-area: footer;
-   height: 50px;
+   color: white;
+   margin-left: 40px;
+    display: flex;
+    align-items: center;
+    align-content: start;
 }
+
+    button {
+        padding: 10px;
+        margin: 10px;
+    }
 
 .name-tag {
     background-color: rgb(84, 143, 238);
@@ -62,4 +72,10 @@ footer {
    
 }
 
+.edit-box {
+    height: 100px;
+    display: grid ;
+    justify-content: center;
+    align-items: center;
+}
 
